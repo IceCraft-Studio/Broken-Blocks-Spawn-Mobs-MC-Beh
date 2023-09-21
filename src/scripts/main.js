@@ -2,7 +2,7 @@ import { world } from "@minecraft/server";
 import { mobList, version } from "./mob_list.js";
 
 world.afterEvents.playerBreakBlock.subscribe((eventData) => {
-    if ((version === 'hard' || version === 'normal') && randInt(0,7500) === 0) {
+    if ((version === 'hard' || version === 'normal') && randInt(0,4999) === 0) {
         eventData.player.dimension.spawnEntity(randChoice(['wither','ender_dragon','warden']),eventData.block.location);
     } else {
         eventData.player.dimension.spawnEntity(randChoice(mobList),eventData.block.location);
