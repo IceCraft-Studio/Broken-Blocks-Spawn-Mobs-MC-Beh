@@ -1,2 +1,3 @@
 const mobList = ["allay","axolotl","bat","bee","camel","cat","chicken","cow","dolphin","donkey","fox","frog","glow_squid","horse","iron_golem","llama","mooshroom","mule","ocelot","parrot","pig","polar_bear","rabbit","sheep","skeleton_horse","sniffer","snow_golem","squid","strider","tadpole","turtle","villager","wandering_trader","wolf","zombie_horse"];
-export {mobList}
+const version = 'easy';
+export {mobList,version}

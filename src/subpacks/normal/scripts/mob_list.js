@@ -1,2 +1,3 @@
 const mobList = ["allay","axolotl","bat","bee","blaze","camel","cat","cave_spider","chicken","cow","creeper","dolphin","donkey","drowned","elder_guardian","enderman","endermite","evocation_illager","fox","frog","ghast","glow_squid","guardian","hoglin","horse","husk","iron_golem","llama","magma_cube","mooshroom","mule","ocelot","parrot","phantom","pig","pillager","polar_bear","rabbit","ravager","sheep","shulker","silverfish","skeleton","skeleton_horse","slime","sniffer","snow_golem","spider","squid","stray","strider","tadpole","turtle","vex","villager","vindicator","wandering_trader","witch","wither_skeleton","wolf","zoglin","zombie","zombie_horse","zombie_pigman","zombie_villager"];
-export {mobList}
+const version = 'normal';
+export {mobList,version}

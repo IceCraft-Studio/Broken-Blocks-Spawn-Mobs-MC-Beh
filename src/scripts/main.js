@@ -1,11 +1,12 @@
 import { world } from "@minecraft/server";
-import { mobList } from "./mob_list.js";
+import { mobList, version } from "./mob_list.js";
 
-world.afterEvents.blockBreak.subscribe(async (eventData) => {
-    const locX = eventData.block.location.x;
-    const locY = eventData.block.location.y;
-    const locZ = eventData.block.location.z;
-    await eventData.player.runCommandAsync(`summon ${randChoice(mobList)} ${locX} ${locY} ${locZ}`);
+world.afterEvents.playerBreakBlock.subscribe((eventData) => {
+    if ((version === 'hard' || version === 'normal') && randInt(0,7500) === 0) {
+        eventData.player.dimension.spawnEntity(randChoice(['wither','ender_dragon','warden']),eventData.block.location);
+    } else {
+        eventData.player.dimension.spawnEntity(randChoice(mobList),eventData.block.location);
+    }
 });
 
 function randInt(min, max) {
