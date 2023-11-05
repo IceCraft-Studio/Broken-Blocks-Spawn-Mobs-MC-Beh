@@ -9,8 +9,8 @@
         "description": "Any block you break will now spawn a random mob! Good luck. §9Made by PavelDobCZ23",
         "name": "Broken Blocks Spawn Mobs",
         "uuid": "8186a5c4-2ff6-4ae3-851d-cc064b3ebf15",
-        "version": [ 1, 7, 0 ],
-        "min_engine_version": [ 1, 20, 30 ]
+        "version": [ 1, 8, 0 ],
+        "min_engine_version": [ 1, 20, 40 ]
     },
     "modules": [
         {
@@ -18,14 +18,14 @@
             "type": "script",
             "language": "javascript",
             "uuid": "dba56e9e-7496-4366-a01e-8ed733aeaa59",
-            "version": [1, 7, 0],
+            "version": [1, 8, 0],
             "entry": "scripts/main.js"
         }
     ],
 	"dependencies": [
 		{
 			"module_name": "@minecraft/server",
-			"version": "1.6.0-beta"
+			"version": "1.6.0"
 		}
 	],
     "subpacks": [
