@@ -6,7 +6,7 @@
     },
     "format_version": 2,
     "header": {
-        "description": "Any block you break will now spawn a random mob! Good luck. §lFor MC 1.20.40+§r §9Made by PavelDobCZ23",
+        "description": "Any block you break will now spawn a random mob! Good luck. For MC - §l1.20.40+§r §9Made by PavelDobCZ23",
         "name": "Broken Blocks Spawn Mobs",
         "uuid": "8186a5c4-2ff6-4ae3-851d-cc064b3ebf15",
         "version": [ 1, 8, 0 ],
